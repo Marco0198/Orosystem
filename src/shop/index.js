@@ -1,58 +1,110 @@
+// import Item1 from '../../images/item1.jpg'
+// import Item2 from '../../images/item2.jpg'
+// import Item3 from '../../images/item3.jpg'
+// import Item4 from '../../images/item4.jpg'
+// import Item5 from '../../images/item5.jpg'
+import Item1 from "../products/PZHRT2.png";
+import custom1 from "../products/svg/PZHRT2.svg";
+import Item2 from "../products/PZBAR2.png";
+import custom2 from "../products/svg/PZBAR2.svg";
+import Item3 from "../products/PZHRT3.png";
+import custom3 from "../products/svg/PZHRT3.svg";
+import Item4 from "../products/CODSK02.png";
+import custom4 from "../products/svg/CODSK02.svg";
+import Item5 from "../products/CODSK03.png";
+import custom5 from "../products/svg/CODSK03.svg";
+
+import Item6 from "../products/CODSK04.png";
+import custom6 from "../products/svg/CODSK04.svg";
+
+import Item7 from "../products/CODSK05.png";
+import custom7 from "../products/svg/CODSK05.svg";
+import Item8 from "../products/CODSK06.png";
+import custom8 from "../products/svg/CODSK06.svg";
+
+import Item9 from "../products/CODSK07.png";
+import custom9 from "../products/svg/CODSK07.svg";
+
 const SHOP_DATA = [
   {
     id: 1,
-    title: 'Studio Bag',
-    description: 'The Studio Bag is identical to its predecessor plus a few more inches to love. Transition it from satchel to backpack to crossbody simply by changing straps. Carry it wherever you go - it will be ready to adapt to your needs and keep up with your lifestyle.',
-    imageUrl: 'https://i.ibb.co/PcXVJ8m/studiobag.jpg',
-    price: 15,
+    title: "Sling",
+    description:
+      "The Sling is encased in cloud-like waterproof nylon, features eight pockets, and can be worn as a waistbag or crossbody sling. Five colors, multiple carrying modes, all you. Vegan friendly + made for everyone.",
+    customImage: custom1,
+    imageUrl: Item1,
+    price: 25,
   },
   {
     id: 2,
-    title: 'Cumulus',
-    description: 'Light as air. The Cumulus is encased in cloud-like waterproof nylon and has a spacious main interior. Collapse it for easy travel and snap it shut with magnetic closures.',
-    imageUrl: 'https://i.ibb.co/NtpJ0XQ/cumulus-olive.png',
-    price: 28,
+    title: "Sling",
+    description:
+      "The Sling is encased in cloud-like waterproof nylon, features eight pockets, and can be worn as a waistbag or crossbody sling. Five colors, multiple carrying modes, all you. Vegan friendly + made for everyone.",
+    customImage: custom2,
+    imageUrl: Item2,
+    price: 25,
   },
   {
     id: 3,
-    title: 'Dance Bag Nylon',
-    description: 'For days when you just need to grab and go. The Dance Bag is a compact, gumdrop-shaped backpack wrapped in water-repellent nylon. It’s the perfect carry-all for your life in motion.',
-    imageUrl: 'https://i.ibb.co/yRKyXPJ/dance-nylon.png',
-    price: 35,
+    title: "Sling",
+    description:
+      "The Sling is encased in cloud-like waterproof nylon, features eight pockets, and can be worn as a waistbag or crossbody sling. Five colors, multiple carrying modes, all you. Vegan friendly + made for everyone.",
+    customImage: custom3,
+    imageUrl: Item3,
+    price: 25,
   },
   {
     id: 4,
-    title: 'Stratus Backpack',
-    description: 'The Stratus is encased in cloud-like waterproof nylon and features exterior + interior pockets for your water bottle, umbrella, and laptop. Reach around to the side for on-the-go access to the main compartment. Collapse it for easy travel. Your backpack just got an upgrade.',
-    imageUrl: 'https://i.ibb.co/Br2W7F0/stratus-backpack.png',
-    price: 30,
+    title: "Sling",
+    description:
+      "The Sling is encased in cloud-like waterproof nylon, features eight pockets, and can be worn as a waistbag or crossbody sling. Five colors, multiple carrying modes, all you. Vegan friendly + made for everyone.",
+    customImage: custom4,
+    imageUrl: Item4,
+    price: 25,
   },
   {
     id: 5,
-    title: 'Cirrus',
-    description: 'The Cirrus rucksack is encased in cloud-like waterproof nylon and features ample interior and exterior pockets, including built-in phone + battery pockets to stay powered up on the go. Luggage slip and secure passport sleeve make it the perfect travel companion. Adventure away.',
-    imageUrl: 'https://i.ibb.co/CPv6xTF/cirrus1.jpg',
-    price: 65,
+    title: "Sling",
+    description:
+      "The Sling is encased in cloud-like waterproof nylon, features eight pockets, and can be worn as a waistbag or crossbody sling. Five colors, multiple carrying modes, all you. Vegan friendly + made for everyone.",
+    customImage: custom5,
+    imageUrl: Item5,
+    price: 25,
   },
   {
     id: 6,
-    title: 'Mini Circle',
-    description: 'The Mini Circle is the ultimate multipurpose grab and go style. Transfer it from crossbody to waistbelt to wristlet simply by changing straps. Internal built-in battery that can charge your USB device. Vegan friendly.',
-    imageUrl: 'https://i.ibb.co/LNNw217/mini-circle.png',
-    price: 40,
+    title: "Sling",
+    description:
+      "The Sling is encased in cloud-like waterproof nylon, features eight pockets, and can be worn as a waistbag or crossbody sling. Five colors, multiple carrying modes, all you. Vegan friendly + made for everyone.",
+    customImage: custom6,
+    imageUrl: Item6,
+    price: 25,
   },
   {
     id: 7,
-    title: 'Studio Bag Vaqueta',
-    description: 'You’re not any one thing, why should your bag be? The Studio Bag Vaqueta features everything you know and love about the Studio Bag wrapped up in colorful Italian nylon and exquisite vaqueta leather. ',
-    imageUrl: 'https://i.ibb.co/QmGdpLf/studio-bag-vaqueta.jpg',
-    price: 75,
+    title: "Sling",
+    description:
+      "The Sling is encased in cloud-like waterproof nylon, features eight pockets, and can be worn as a waistbag or crossbody sling. Five colors, multiple carrying modes, all you. Vegan friendly + made for everyone.",
+    customImage: custom7,
+    imageUrl: Item7,
+    price: 25,
   },
   {
     id: 8,
-    title: 'Sling',
-    description: 'The Sling is encased in cloud-like waterproof nylon, features eight pockets, and can be worn as a waistbag or crossbody sling. Five colors, multiple carrying modes, all you. Vegan friendly + made for everyone.',
-    imageUrl: 'https://i.ibb.co/LzyPnF3/sling.png',
+    title: "Sling",
+    description:
+      "The Sling is encased in cloud-like waterproof nylon, features eight pockets, and can be worn as a waistbag or crossbody sling. Five colors, multiple carrying modes, all you. Vegan friendly + made for everyone.",
+    customImage: custom8,
+    imageUrl: Item8,
+    price: 25,
+  },
+  {
+    id: 9,
+    title: "Sling",
+    description:
+      "The Sling is encased in cloud-like waterproof nylon, features eight pockets, and can be worn as a waistbag or crossbody sling. Five colors, multiple carrying modes, all you. Vegan friendly + made for everyone.",
+    customImage: custom9,
+    imageUrl: Item9,
     price: 25,
   },
 ];

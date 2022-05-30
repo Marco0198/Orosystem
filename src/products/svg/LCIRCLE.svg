@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+   xmlns:mingh="http://www.minghworld.com"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="300px"
+   height="300px" >
+
+	<defs>
+		<!-- Text Path -->
+		<path id="txtpath" style="fill:none;stroke:#f0f;stroke-width:0.25px;"
+			d="M 127.11,142.13 C 126.38,144.43 125.98,146.88 125.98,149.42 125.98,162.69 136.74,173.44 150,173.44 163.26,173.44 174.02,162.69 174.02,149.42 174.02,146.91 173.63,144.49 172.92,142.21" />
+	</defs>
+    <g>
+		<!-- shape -->
+		<path id="shape" style="fill:none;stroke:#fb0;stroke-width:0.25"
+		   d="M 150,123.59 C 142.71,123.59 136.44,126.12 131.28,131.28 126.12,136.44 123.59,142.71 123.59,150 123.59,157.31 126.12,163.56 131.28,168.72 136.44,173.87 142.71,176.41 150,176.41 157.29,176.41 163.56,173.87 168.72,168.72 173.88,163.56 176.41,157.31 176.41,150 176.41,142.71 173.88,136.44 168.72,131.28 163.56,126.12 157.29,123.59 150,123.59 z M 150,126.63 C 160.63,126.63 169.22,135.22 169.22,145.84 169.22,156.47 160.63,165.09 150,165.09 139.37,165.09 130.75,156.47 130.75,145.84 130.75,135.22 139.37,126.63 150,126.63 z" />
+		
+		<text style="font-size:8.5px;fill:#00f;stroke:none;font-family:z_boli;text-anchor:middle">
+			<textPath id="txt1" xlink:href="#txtpath" startOffset="50%" class="txt" ></textPath>
+		</text>
+		
+		<!-- Prism Reference -->
+		<cam mingh:cam="--actions=EditSelectAll;ObjectToPath;ZoomPage;ZoomCenterPage;FileVacuum;FileSave; -g" mingh:style="source:microprism">M2</cam> 
+	</g>
+  
+</svg>
